@@ -10,13 +10,13 @@ public class ApiCuadratica {
     private String resultadoDenominador;
     private String resultado;
     
-    public ApiCuadratica(String hora, List<Integer> valoresUsados, String resultadoRaiz, String resultadoNumerador,
-            String resultadoDenominador, String resultado) {
+    public ApiCuadratica(String hora, List<Integer> valoresUsados, String string, String string2,
+            String string3, String resultado) {
         this.hora = hora;
         this.valoresUsados = valoresUsados;
-        this.resultadoRaiz = resultadoRaiz;
-        this.resultadoNumerador = resultadoNumerador;
-        this.resultadoDenominador = resultadoDenominador;
+        this.resultadoRaiz = string;
+        this.resultadoNumerador = string2;
+        this.resultadoDenominador = string3;
         this.resultado = resultado;
     }
 
